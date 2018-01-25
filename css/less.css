@@ -40,3 +40,17 @@ header h1 {
   background-color: #ccc;
 }
 /*--------------------Sections---------------------------------*/
+#sectionPrincipale {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sectionPrincipale .contenu {
+  border: 2px solid black;
+  height: 3em;
+  display: flex;
+  width: 50%;
+  margin: 50px;
+}
