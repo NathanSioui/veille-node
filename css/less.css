@@ -71,6 +71,11 @@ footer {
   background-color: #e1e4e8;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  padding: 1em;
+  font-family: Poppins;
 }
 footer nav {
   display: flex;
