@@ -6,25 +6,37 @@ body {
 /*--------------------Header-----------------------*/
 header {
   background-color: #e1e4e8;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header h1 {
   font-size: 72px;
-  font-family: Helvetica;
+  font-family: 'Alfa Slab One';
 }
 /*----------------------Navigation------------------------*/
 #navPrincipal {
   width: 100%;
   height: 50px;
   display: flex;
+  justify-content: center;
 }
 #navPrincipal ul {
   display: flex;
 }
 #navPrincipal ul li {
   display: flex;
+  padding: 1em;
 }
 #navPrincipal ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Poppins;
 }
+#navPrincipal ul li:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+/*--------------------Sections---------------------------------*/
