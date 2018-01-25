@@ -68,6 +68,7 @@ header h1 {
 }
 #sectionPrincipale .contenu:hover {
   background-color: green;
+  cursor: pointer;
 }
 /*----------------------------------footer--------------------------------*/
 footer {
