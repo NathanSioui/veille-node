@@ -75,6 +75,7 @@ header h1 {
   margin: 50px;
   padding: 1em;
   border-radius: 30px;
+  transition: height 0.2s, width 0.2s;
 }
 #tout #sectionPrincipale .contenu h2 {
   font-family: 'Alfa Slab One';
@@ -87,6 +88,8 @@ header h1 {
 #tout #sectionPrincipale .contenu:hover {
   background-color: green;
   cursor: pointer;
+  height: 3.5em;
+  width: 55%;
 }
 /*----------------------------------footer--------------------------------*/
 footer {
