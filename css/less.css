@@ -48,7 +48,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   background-color: #bbb;
-  padding: 3em;
+  padding: 5em 10em;
 }
 #tout #texte h3 {
   font-size: 20px;
