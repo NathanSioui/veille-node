@@ -40,14 +40,18 @@ header h1 {
   background-color: #ccc;
 }
 /*--------------------Sections---------------------------------*/
-#sectionPrincipale {
+#tout {
+  display: flex;
+  flex-direction: column;
+}
+#tout #sectionPrincipale {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#sectionPrincipale .contenu {
+#tout #sectionPrincipale .contenu {
   border: 2px solid black;
   height: 3em;
   display: flex;
@@ -58,15 +62,15 @@ header h1 {
   padding: 1em;
   border-radius: 30px;
 }
-#sectionPrincipale .contenu h2 {
+#tout #sectionPrincipale .contenu h2 {
   font-family: 'Alfa Slab One';
   font-size: 30px;
   margin-right: 20px;
 }
-#sectionPrincipale .contenu p {
+#tout #sectionPrincipale .contenu p {
   font-family: Poppins;
 }
-#sectionPrincipale .contenu:hover {
+#tout #sectionPrincipale .contenu:hover {
   background-color: green;
   cursor: pointer;
 }

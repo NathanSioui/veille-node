@@ -54,39 +54,45 @@ header{
 
 /*--------------------Sections---------------------------------*/
 
-#sectionPrincipale{
-	width:100%;
+#tout{
+
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
-	align-items:center;
 
-	.contenu{
-		border:2px solid black;
-		height:3em;
+	#sectionPrincipale{
+		width:100%;
 		display:flex;
+		flex-direction:column;
 		justify-content:center;
 		align-items:center;
-		width:50%;
-		margin:50px;
-		padding:1em;
-		border-radius:30px;;
 
-		h2{
-			font-family:'Alfa Slab One';
-			font-size:30px;
-			margin-right:20px;
+		.contenu{
+			border:2px solid black;
+			height:3em;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			width:50%;
+			margin:50px;
+			padding:1em;
+			border-radius:30px;;
+
+			h2{
+				font-family:'Alfa Slab One';
+				font-size:30px;
+				margin-right:20px;
+			}
+
+			p{
+				font-family:Poppins;
+			}
+
 		}
 
-		p{
-			font-family:Poppins;
+		.contenu:hover{
+			background-color:green;
+			cursor:pointer;
 		}
-
-	}
-
-	.contenu:hover{
-		background-color:green;
-		cursor:pointer;
 	}
 }
 
