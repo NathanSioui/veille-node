@@ -66,6 +66,9 @@ header h1 {
 #sectionPrincipale .contenu p {
   font-family: Poppins;
 }
+#sectionPrincipale .contenu:hover {
+  background-color: green;
+}
 /*----------------------------------footer--------------------------------*/
 footer {
   background-color: #e1e4e8;
