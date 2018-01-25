@@ -47,6 +47,8 @@ header h1 {
 #tout #texte {
   display: flex;
   flex-direction: column;
+  background-color: #bbb;
+  padding: 3em;
 }
 #tout #sectionPrincipale {
   width: 100%;
